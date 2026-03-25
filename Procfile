@@ -1,1 +1,1 @@
-web: npx serve -s build
+web: caddy file-server --root build
