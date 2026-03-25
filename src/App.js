@@ -89,7 +89,7 @@ function App() {
     }
   };
 
-  const handleDownload = () => window.open(`${process.env.REACT_APP_BACKEND_URL || 'http://localhost:8001/api'}/download`, '_blank');
+const handleDownload = () => window.open(`${process.env.REACT_APP_BACKEND_URL || 'https://web-production-03acd.up.railway.app/api'}/download`, '_blank');
   const handleReset = () => { setIsUploaded(false); setShowLanding(true); setDatasetName(''); setMessage(''); };
   const handleGetStarted = () => setShowLanding(false);
 

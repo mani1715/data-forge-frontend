@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // Create axios instance with production-grade configuration for large file uploads
 const api = axios.create({
-  baseURL: process.env.REACT_APP_BACKEND_URL || 'http://localhost:8001/api',
+baseURL: process.env.REACT_APP_BACKEND_URL || 'https://web-production-03acd.up.railway.app/api',
   timeout: 0, // No timeout - let the upload complete
   maxContentLength: Infinity, // No limit
   maxBodyLength: Infinity, // No limit
