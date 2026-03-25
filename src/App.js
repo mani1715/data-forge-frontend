@@ -8,7 +8,7 @@ import Visualization from './components/Visualization';
 import Footer from './components/Footer';
 import api from './services/api';
 import './App.css';
-import { Upload, Zap, BarChart3, Search, LineChart, Shield, Target, Sparkles, Users, Globe } from 'lucide-react';
+import { Zap, BarChart3, Search, LineChart, Shield, Target, Sparkles, Users, Globe } from 'lucide-react';
 
 function App() {
   const [isUploaded, setIsUploaded] = useState(false);
